@@ -1,0 +1,6 @@
+#!/bin/sh
+
+git pull
+service php-fpm reload
+service nginx reload
+php artisan optimize
