@@ -26,12 +26,20 @@ Development takes place on "GitHub":github in the "forums":github-project projec
 
 You will require a current "PHP":http://www.web-core.org/ installation of at least version 5.4.17 and the PHP-FPM service. The recommended web server configuration is "Nginx":http://www.nginx.org/ + PHP-FPM
 
-You can upgrade to the latest version at any time:
+To setup the forum software form scratch, run these commands in the project root: <pre><code>git clone https://github.com/bravecollective/forums.git .
+chmod 755 ./setup ./update ./reset
+./setup
+</code></pre>
 
-<pre><code>(./update)</code></pre>
+To upgrade the forum software to the latest version, run this command in the project root:
+
+<pre><code>./update</code></pre>
+
+To reset the forum software to a new install, run this command in the project root:
+
+<pre><code>./reset</code></pre>
 
 If you would like to make changes and contribute them back to the project, fork the GitHub project, make your changes, and submit a pull request.  This process is beyond the scope of this documentation; for more information, see "GitHub's documentation":github-help.
-
 
 [github]https://github.com/
 [git]http://git-scm.com/
