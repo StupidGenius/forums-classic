@@ -14,7 +14,7 @@ mySettings = {
 	markupSet: [
 		{name:'Bold', key:'B', openWith:'[b]', closeWith:'[/b]', className:"halflings-icon bold"},
 		{name:'Italic', key:'I', openWith:'[i]', closeWith:'[/i]', className:"halflings-icon italic"},
-		{name:'Underline', key:'U', openWith:'[u]', closeWith:'[/u]', className:"halflings-icon text-width"},
+		//{name:'Underline', key:'U', openWith:'[u]', closeWith:'[/u]', className:"halflings-icon text-width"},
 		{separator:'---------------' },
 		{name:'Picture', key:'P', replaceWith:'[img][![Url]!][/img]', className:"halflings-icon picture"},
 		{name:'Link', key:'L', openWith:'[url=[![Url]!]]', closeWith:'[/url]', placeHolder:'Your text to link here...', className:"halflings-icon link"},
@@ -50,7 +50,7 @@ mySettings = {
 		{separator:'---------------' },
 		{name:'Quotes', openWith:'[quote]', closeWith:'[/quote]', className:"halflings-icon comments"},
 		{separator:'---------------' },
-		{name:'Clean', className:"clean", replaceWith:function(markitup) { return markitup.selection.replace(/\[(.*?)\]/g, "") } },
+		{name:'Clean', className:"halflings-icon wrench", replaceWith:function(markitup) { return markitup.selection.replace(/\[(.*?)\]/g, "") } },
 		{name:'Preview', className:"halflings-icon check", call:'preview' }
 	]
 };

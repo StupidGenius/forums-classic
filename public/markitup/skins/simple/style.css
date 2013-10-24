@@ -60,6 +60,7 @@
 .markItUpHeader ul li:hover > ul{
 	display:block;
 }
+/*
 .markItUpHeader ul .markItUpDropMenu {
 	background:transparent url(images/menu.png) no-repeat 115% 50%;
 	margin-right:5px;
@@ -67,6 +68,7 @@
 .markItUpHeader ul .markItUpDropMenu li {
 	margin-right:0px;
 }
+*/
 /* next rows of buttons */
 .markItUpHeader ul ul {
 	display:none;
