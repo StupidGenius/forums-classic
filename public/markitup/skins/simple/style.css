@@ -73,7 +73,7 @@
 .markItUpHeader ul ul {
 	display:none;
 	position:absolute;
-	top:17px; left:0px;
+	top:13px; left:0px;
 	background:#FFF;
 	border:1px solid #999;
 	height:auto;
@@ -122,5 +122,5 @@
 }
 .markItUpHeader ul ul a:hover  {
 	color:#FFF;
-	background-color:#000;
+	background-color:#ccc;
 }
