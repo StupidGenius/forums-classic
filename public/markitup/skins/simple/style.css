@@ -85,15 +85,12 @@
 	height:auto;
 }
 
-.markItUpHeader ul .markitupdropmenu.text-height ul {
-	display:none;
-	position: absolute;
-	top: 13px;
-	left: -2px;
-	background: #FFF;
-	border: 1px solid #999;
-	height: auto;
-	width: auto;
+.markItUpHeader ul li.markitupdropmenu.text-height ul {
+	width: 80px;
+}
+
+.markItUpHeader ul li.markitupdropmenu.color ul {
+	width: 80px;
 }
 .markItUpHeader ul ul li {
 	float:none;
