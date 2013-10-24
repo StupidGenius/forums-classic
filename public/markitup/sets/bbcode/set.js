@@ -33,16 +33,16 @@ mySettings = {
 			openWith:'[color=[![Color]!]]', 
 			closeWith:'[/color]', 
 				dropMenu: [
-					{name:'Red', 	openWith:'[color=red]', 	closeWith:'[/color]', className:"halflings-icon tint col1-3" },
-					{name:'Orange',	openWith:'[color=orange]', 	closeWith:'[/color]', className:"halflings-icon tint col1-2" },
-					{name:'Yellow',	openWith:'[color=yellow]', 	closeWith:'[/color]', className:"halflings-icon tint col1-1" },
-					{name:'Green', 	openWith:'[color=green]', 	closeWith:'[/color]', className:"halflings-icon tint col2-3" },
-					{name:'Blue', 	openWith:'[color=blue]', 	closeWith:'[/color]', className:"halflings-icon tint col2-1" },
-					{name:'Purple', openWith:'[color=purple]', 	closeWith:'[/color]', className:"halflings-icon tint col2-2" },
+					{name:'Red', 	openWith:'[color="red"]', 	closeWith:'[/color]', className:"halflings-icon tint col1-3" },
+					{name:'Orange',	openWith:'[color="orange"]', 	closeWith:'[/color]', className:"halflings-icon tint col1-2" },
+					{name:'Yellow',	openWith:'[color="yellow"]', 	closeWith:'[/color]', className:"halflings-icon tint col1-1" },
+					{name:'Green', 	openWith:'[color="green"]', 	closeWith:'[/color]', className:"halflings-icon tint col2-3" },
+					{name:'Blue', 	openWith:'[color="blue"]', 	closeWith:'[/color]', className:"halflings-icon tint col2-1" },
+					{name:'Purple', openWith:'[color="purple"]', 	closeWith:'[/color]', className:"halflings-icon tint col2-2" },
 
-					{name:'Black',	openWith:'[color=black]', 	closeWith:'[/color]', className:"halflings-icon tint col3-3" },
-					{name:'Gray', 	openWith:'[color=gray]', 	closeWith:'[/color]', className:"halflings-icon tint col3-2" },
-					{name:'White', 	openWith:'[color=white]', 	closeWith:'[/color]', className:"halflings-icon tint col3-1" }
+					{name:'Black',	openWith:'[color="black"]', 	closeWith:'[/color]', className:"halflings-icon tint col3-3" },
+					{name:'Gray', 	openWith:'[color="gray"]', 	closeWith:'[/color]', className:"halflings-icon tint col3-2" },
+					{name:'White', 	openWith:'[color="white"]', 	closeWith:'[/color]', className:"halflings-icon tint col3-1" }
 				]
 		},
 		{separator:'---------------' },
