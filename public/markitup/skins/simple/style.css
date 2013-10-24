@@ -88,6 +88,8 @@
 	height:16px;
 	overflow:hidden;
 	background-color:#CCC;
+	padding: 0;
+	margin-top: 2px;
 }
 .markItUpHeader ul ul .markItUpSeparator {
 	width:auto; height:1px;
