@@ -26,7 +26,7 @@ mySettings = {
 			{name:'Small', openWith:'[size=12]', closeWith:'[/size]', className:"halflings-icon font"  }
 		]},
 		{	name:'Colors', 
-			className:'tint',
+			className:'halflings-icon tint',
 			openWith:'[color=[![Color]!]]', 
 			closeWith:'[/color]', 
 				dropMenu: [
