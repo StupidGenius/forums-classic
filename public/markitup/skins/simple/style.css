@@ -53,12 +53,15 @@
 	margin-bottom:1px;
 }
 .markItUpHeader ul li	{
-	list-style:none;
-	float:left;
-	position:relative;
+	list-style: none;
+	float: left;
+	position: relative;
 	margin: 0;
-	padding: 2px 0;
+	padding: 0;
+	height: 16px;
 	margin-right: 4px;
+	width: 16px;
+	margin-top: 1px;
 }
 .markItUpHeader ul li:hover > ul{
 	display:block;
