@@ -73,17 +73,16 @@
 	position:absolute;
 	top:17px; left:0px;
 	background:#FFF;
-	border:1px solid #000;
+	border:1px solid #999;
 }
 .markItUpHeader ul ul li {
 	float:none;
-	border-bottom:1px solid #000;
 }
 .markItUpHeader ul ul .markItUpDropMenu {
 	background:#FFF url(images/submenu.png) no-repeat 100% 50%;
 }
 .markItUpHeader ul .markItUpSeparator {
-	margin:0 10px;
+	margin:0 8px;
 	width:1px;
 	height:16px;
 	overflow:hidden;
@@ -93,7 +92,7 @@
 }
 .markItUpHeader ul ul .markItUpSeparator {
 	width:auto; height:1px;
-	margin:0px;
+	margin:0;
 }
 /* next rows of buttons */
 .markItUpHeader ul ul ul {
