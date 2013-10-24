@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/skins/simple/style.css')?>" />
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/sets/bbcode/style.css')?>" />
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/sets/colors/style.css')?>" />
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
