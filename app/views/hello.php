@@ -16,11 +16,10 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="<?=URL::asset('js/bootstrap.min.js')?>"></script>
-    <script src="<?=URL::asset('js/select2.min.js')?>"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.min.js"></script>
 
     <!-- MarkItUp -->
-    <script type="text/javascript" src="<?=URL::asset('markitup/jquery.markitup.js')?>markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="<?=URL::asset('markitup/jquery.markitup.js')?>"></script>
     <script type="text/javascript" src="<?=URL::asset('markitup/sets/bbcode/set.js')?>"></script>
     <script type="text/javascript" src="<?=URL::asset('markitup/sets/colors/set.js')?>"></script>
 
