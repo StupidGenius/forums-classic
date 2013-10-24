@@ -19,6 +19,13 @@ Route::get('/', array('as' => 'home', function()
 Route::post('bbcode/preview', array('as' => 'bbcode_preview', function()
 {
 	$code = new Decoda\Decoda(Input::get('data'));
+	$code->addFilter(new Decoda\Filter\EmailFilter());
+	$code->addFilter(new Decoda\Filter\UrlFilter());
+	$code->addFilter(new Decoda\Filter\TextFilter());
+	$code->addFilter(new Decoda\Filter\CodeFilter());
+	$code->addFilter(new Decoda\Filter\ImageFilter());
+	$code->addFilter(new Decoda\Filter\QuoteFilter());
+	$code->addFilter(new Decoda\Filter\BlockFilter());
 	$code->defaults();
 	// Or load filters and hooks
 	return $code->parse();
