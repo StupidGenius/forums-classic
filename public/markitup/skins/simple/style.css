@@ -88,10 +88,17 @@
 .markItUpHeader ul li.markItUpDropMenu.text-height ul {
 	width: 80px;
 }
+.markItUpHeader ul li.markItUpDropMenu.text-height ul a {
+	width: 75px;
+}
 
 .markItUpHeader ul li.markItUpDropMenu.color ul {
 	width: 80px;
 }
+.markItUpHeader ul li.markItUpDropMenu.color ul a {
+	width: 75px;
+}
+
 .markItUpHeader ul ul li {
 	float:none;
 	display:block;
