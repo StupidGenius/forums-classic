@@ -84,8 +84,20 @@
 	border:1px solid #999;
 	height:auto;
 }
+
+.markItUpHeader ul .markitupdropmenu.text-height ul {
+	display:none;
+	position: absolute;
+	top: 13px;
+	left: -2px;
+	background: #FFF;
+	border: 1px solid #999;
+	height: auto;
+	width: auto;
+}
 .markItUpHeader ul ul li {
 	float:none;
+	display:block;
 }
 .markItUpHeader ul ul .markItUpDropMenu {
 	background:#FFF url(images/submenu.png) no-repeat 100% 50%;
