@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?=URL::asset('css/bootstrap.css')?>">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css">
-    <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/skins/markitup/style.css')?>" />
+    <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/skins/simple/style.css')?>" />
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/sets/bbcode/style.css')?>" />
 
     <!-- Latest compiled and minified JavaScript -->
