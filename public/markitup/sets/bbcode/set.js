@@ -21,9 +21,9 @@ mySettings = {
 		{separator:'---------------' },
 		{name:'Size', key:'S', openWith:'[size=[![Text size]!]]', closeWith:'[/size]',
 		dropMenu :[
-			{name:'Big', openWith:'[size=200]', closeWith:'[/size]' },
-			{name:'Normal', openWith:'[size=100]', closeWith:'[/size]' },
-			{name:'Small', openWith:'[size=50]', closeWith:'[/size]' }
+			{name:'Big', openWith:'[size=24]', closeWith:'[/size]' },
+			{name:'Normal', openWith:'[size=16]', closeWith:'[/size]' },
+			{name:'Small', openWith:'[size=12]', closeWith:'[/size]' }
 		]},
 		{	name:'Colors', 
 			className:'colors', 
@@ -54,4 +54,4 @@ mySettings = {
 		{name:'Clean', className:"clean", replaceWith:function(markitup) { return markitup.selection.replace(/\[(.*?)\]/g, "") } },
 		{name:'Preview', className:"preview", call:'preview' }
 	]
-}
+};
