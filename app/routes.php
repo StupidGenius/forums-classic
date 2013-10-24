@@ -15,3 +15,12 @@ Route::get('/', array('as' => 'home', function()
 {
 	return View::make('hello');
 }));
+
+Route::get('bbcode/preview', array('as' => 'bbcode_preview', function()
+{
+	$code = new Decoda\Decoda('Hello, my name is [b]Miles Johnson[/b], you may visit my website at [url]http://milesj.me[/url].');
+	$code->defaults();
+	// Or load filters and hooks
+	return $code->parse();
+	//return View::make('hello');
+}));

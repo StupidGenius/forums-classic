@@ -10,7 +10,7 @@
 // Feel free to add more tags
 // ----------------------------------------------------------------------------
 mySettings = {
-	previewParserPath:	'', // path to your BBCode parser
+	previewParserPath:	'/bbcode/preview', // path to your BBCode parser
 	markupSet: [
 		{name:'Bold', key:'B', openWith:'[b]', closeWith:'[/b]', className:"halflings-icon bold"},
 		{name:'Italic', key:'I', openWith:'[i]', closeWith:'[/i]', className:"halflings-icon italic"},
@@ -33,7 +33,6 @@ mySettings = {
 					{name:'Red', 	openWith:'[color=red]', 	closeWith:'[/color]', className:"halflings-icon tint col1-3" },
 					{name:'Orange',	openWith:'[color=orange]', 	closeWith:'[/color]', className:"halflings-icon tint col1-2" },
 					{name:'Yellow',	openWith:'[color=yellow]', 	closeWith:'[/color]', className:"halflings-icon tint col1-1" },
-
 					{name:'Green', 	openWith:'[color=green]', 	closeWith:'[/color]', className:"halflings-icon tint col2-3" },
 					{name:'Blue', 	openWith:'[color=blue]', 	closeWith:'[/color]', className:"halflings-icon tint col2-1" },
 					{name:'Purple', openWith:'[color=purple]', 	closeWith:'[/color]', className:"halflings-icon tint col2-2" },
