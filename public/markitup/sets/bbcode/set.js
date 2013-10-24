@@ -21,9 +21,12 @@ mySettings = {
 		{separator:'---------------' },
 		{name:'Size', key:'S', openWith:'[size=[![Text size]!]]', closeWith:'[/size]', className:"halflings-icon text-height",
 		dropMenu :[
-			{name:'Big', openWith:'[size=24]', closeWith:'[/size]', className:"halflings-icon font" },
-			{name:'Normal', openWith:'[size=16]', closeWith:'[/size]', className:"halflings-icon font"  },
-			{name:'Small', openWith:'[size=12]', closeWith:'[/size]', className:"halflings-icon font"  }
+			{name:'H1', openWith:'[h1]', closeWith:'[/h1]', className:"halflings-icon font" },
+			{name:'H2', openWith:'[h2]', closeWith:'[/h2]', className:"halflings-icon font"  },
+			{name:'H3', openWith:'[h3]', closeWith:'[/h3]', className:"halflings-icon font"  },
+			{name:'H4', openWith:'[h4]', closeWith:'[/h4]', className:"halflings-icon font"  },
+			{name:'H5', openWith:'[h5]', closeWith:'[/h5]', className:"halflings-icon font"  },
+			{name:'H6', openWith:'[h6]', closeWith:'[/h6]', className:"halflings-icon font"  }
 		]},
 		{	name:'Colors', 
 			className:'halflings-icon tint',
