@@ -21,7 +21,9 @@
     <!-- MarkItUp -->
     <script type="text/javascript" src="<?=URL::asset('markitup/jquery.markitup.js')?>"></script>
     <script type="text/javascript" src="<?=URL::asset('markitup/sets/bbcode/set.js')?>"></script>
+	<!--
     <script type="text/javascript" src="<?=URL::asset('markitup/sets/colors/set.js')?>"></script>
+    -->
 
     <style>
         .jumbotron {
