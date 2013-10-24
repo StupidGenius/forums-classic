@@ -8,6 +8,8 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="<?=URL::asset('css/bootstrap.css')?>">
+    <link rel="stylesheet" href="<?=URL::asset('css/glyphicons.css')?>">
+    <link rel="stylesheet" href="<?=URL::asset('css/halflings.css')?>">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css">
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/skins/simple/style.css')?>" />
