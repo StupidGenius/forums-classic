@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css">
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/skins/simple/style.css')?>" />
     <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/sets/bbcode/style.css')?>" />
+    <link rel="stylesheet" type="text/css" href="<?=URL::asset('markitup/sets/colors/style.css')?>" />
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
