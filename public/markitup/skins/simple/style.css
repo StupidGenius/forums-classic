@@ -56,6 +56,9 @@
 	list-style:none;
 	float:left;
 	position:relative;
+	margin: 0;
+	padding: 2px 0;
+	margin-right: 4px;
 }
 .markItUpHeader ul li:hover > ul{
 	display:block;
