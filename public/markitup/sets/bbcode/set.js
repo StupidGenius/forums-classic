@@ -12,21 +12,21 @@
 mySettings = {
 	previewParserPath:	'', // path to your BBCode parser
 	markupSet: [
-		{name:'Bold', key:'B', openWith:'[b]', closeWith:'[/b]'},
-		{name:'Italic', key:'I', openWith:'[i]', closeWith:'[/i]'},
-		{name:'Underline', key:'U', openWith:'[u]', closeWith:'[/u]'},
+		{name:'Bold', key:'B', openWith:'[b]', closeWith:'[/b]', className:"halflings-icon bold"},
+		{name:'Italic', key:'I', openWith:'[i]', closeWith:'[/i]', className:"halflings-icon italic"},
+		{name:'Underline', key:'U', openWith:'[u]', closeWith:'[/u]', className:"halflings-icon text-width"},
 		{separator:'---------------' },
-		{name:'Picture', key:'P', replaceWith:'[img][![Url]!][/img]'},
-		{name:'Link', key:'L', openWith:'[url=[![Url]!]]', closeWith:'[/url]', placeHolder:'Your text to link here...'},
+		{name:'Picture', key:'P', replaceWith:'[img][![Url]!][/img]', className:"halflings-icon picture"},
+		{name:'Link', key:'L', openWith:'[url=[![Url]!]]', closeWith:'[/url]', placeHolder:'Your text to link here...', className:"halflings-icon link"},
 		{separator:'---------------' },
-		{name:'Size', key:'S', openWith:'[size=[![Text size]!]]', closeWith:'[/size]',
+		{name:'Size', key:'S', openWith:'[size=[![Text size]!]]', closeWith:'[/size]', className:"halflings-icon text-height",
 		dropMenu :[
-			{name:'Big', openWith:'[size=24]', closeWith:'[/size]' },
-			{name:'Normal', openWith:'[size=16]', closeWith:'[/size]' },
-			{name:'Small', openWith:'[size=12]', closeWith:'[/size]' }
+			{name:'Big', openWith:'[size=24]', closeWith:'[/size]', className:"halflings-icon font" },
+			{name:'Normal', openWith:'[size=16]', closeWith:'[/size]', className:"halflings-icon font"  },
+			{name:'Small', openWith:'[size=12]', closeWith:'[/size]', className:"halflings-icon font"  }
 		]},
 		{	name:'Colors', 
-			className:'colors', 
+			className:'tint',
 			openWith:'[color=[![Color]!]]', 
 			closeWith:'[/color]', 
 				dropMenu: [
@@ -44,14 +44,13 @@ mySettings = {
 				]
 		},
 		{separator:'---------------' },
-		{name:'Bulleted list', openWith:'[list]\n', closeWith:'\n[/list]'},
-		{name:'Numeric list', openWith:'[list=[![Starting number]!]]\n', closeWith:'\n[/list]'}, 
-		{name:'List item', openWith:'[*] '},
+		{name:'Bulleted list', openWith:'[list]\n', closeWith:'\n[/list]', className:"halflings-icon th-list"},
+		{name:'Numeric list', openWith:'[list=[![Starting number]!]]\n', closeWith:'\n[/list]', className:"halflings-icon list-alt"},
+		{name:'List item', openWith:'[*] ', className:"halflings-icon list"},
 		{separator:'---------------' },
-		{name:'Quotes', openWith:'[quote]', closeWith:'[/quote]'},
-		{name:'Code', openWith:'[code]', closeWith:'[/code]'}, 
+		{name:'Quotes', openWith:'[quote]', closeWith:'[/quote]', className:"halflings-icon comments"},
 		{separator:'---------------' },
 		{name:'Clean', className:"clean", replaceWith:function(markitup) { return markitup.selection.replace(/\[(.*?)\]/g, "") } },
-		{name:'Preview', className:"preview", call:'preview' }
+		{name:'Preview', className:"halflings-icon check", call:'preview' }
 	]
 };
